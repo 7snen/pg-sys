@@ -1594,14 +1594,14 @@ const cuttweet = [
 //help
 
   client.on('message', msg => {
-    if(msg.content === 'k&help')
-    msg.reply('شـيكـ علىُ الخآآآصــ:white_check_mark:')
+    if(msg.content === '$help')
+    msg.reply('حميع اوامر البوت. شيك خاص:white_check_mark:')
   });
   
   //help prv
   
   client.on("message", message => {
-    if (message.content === "k&help") {
+    if (message.content === "$help") {
      const embed = new Discord.RichEmbed() 
          .setColor("RANDOM")
          .setThumbnail(message.author.avatarURL)
@@ -1680,7 +1680,7 @@ $uvmute (@user) | يزيل الميوت عن الشخص داخل الرومات 
 
 $vkick (@user) | يطرد الشخص من الروومات الصوتية 
 
-$mive (@user) سحب الشخص من الرم الصوتي الى رومك الوتي
+$move (@user) سحب الشخص من الرم الصوتي الى رومك الوتي
 
 $mute (@user) | لاسكات شخص ما 
 
